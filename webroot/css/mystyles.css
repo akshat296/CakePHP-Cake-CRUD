@@ -1,0 +1,150 @@
+
+p{
+    color:red;
+}
+
+       table {
+            box-shadow: 5px 5px 5px 5px grey,5px 5px 5px 5px red;
+            padding :30px;
+            transform: translate3d(0,0,0);
+            
+            
+            animation-duration: 0.82s;
+            background-color:white;
+           
+            animation-timing-function:linear;
+
+
+       }
+       #reg{
+            box-shadow: 5px 5px 5px 5px grey,5px 5px 5px 5px red;
+            position:relative;
+            left:0px;
+            right:0px;
+            height :45px;
+            width:300px;
+            top:0px;
+            padding:0px;
+            margin:10px;
+           /* animation-name: box;*/
+            animation-duration: 2s;
+            background-color:white;
+            animation-iteration-count:infinite;
+            animation-timing-function:linear;
+       }
+       body{
+           background-color:grey;
+       }
+       @keyframes registertext
+       {
+           from{
+ text-shadow: 0 0 3px #389abc;
+           }
+           to{
+    text-shadow: 0 0 3px #3a2341;
+           }
+       }
+     @keyframes line
+     {
+         from
+         {  
+            
+        background-color:red;
+         }
+         to{ background-color:navy;}
+     }
+     @keyframes box
+     {
+         10%,90% {
+         box-shadow: 5px 5px 5px 5px red,5px 5px 5px 5px red;
+         transform:translate3d(-1px,0,0);
+         }
+         20%,80% {
+         box-shadow: 5px 5px 5px 5px navy,5px 5px 5px 5px lightblue;     transform:translate3d(2px,0,0);
+         }
+         30%,50%,70%{ box-shadow: 5px 5px 5px 5px red,5px 5px 5px 5px red;     transform:translate3d(4px,0,0);
+             }
+             40%,60%{ box-shadow: 5px 5px 5px 5px navy,5px 5px 5px 5px lightblue;     transform:translate3d(-5px,0,0);}
+     } 
+  
+     div#hello{
+         height: 2px;
+         width:auto;
+         animation-timing-function:linear;
+         background-color:red;
+        
+         animation-name:line;
+          animation-iteration-count: infinite;
+         animation-duration:2s;
+         
+     }
+        p{
+            color:red;
+        }
+
+        h1::first-letter
+        {
+            color : blue;
+             text-shadow: 0 0 3px #FF0000;
+             
+            
+        }
+            input#date
+            {
+                width: 75px;
+                
+            }
+        h1{
+            
+            
+              text-shadow: 0 0 3px #389abc;
+              animation-name: registertext;
+               animation-iteration-count: infinite;
+              animation-duration:2s;
+        }
+            h2#hi{
+                 color: white;
+                 font-color: white;
+            }
+                 h2{
+                 color: white;
+                 font-color: white;
+            }
+        input#username,#email,#password,#oldpassword,#confirm_password,#country,#profile_pic,#first_name,#file,#last_name,#mobile_number,#zipcode,#interest,#description{
+             border-radius: 5px;
+             height:35px;
+           margin :auto;
+              width:375px;
+        }
+            a{
+                color: #DDCCBB;
+            }
+           
+         input#gender
+        {
+             border-radius: 5px;
+              margin :auto;
+             width:15px;
+             
+        }
+        input#Register
+        {
+                border: 2px blue;
+                 border-radius: 25px;
+                background: #375371;
+                 padding: 10px; 
+                  box-shadow: 5px 5px 5px grey;
+                 color:white;
+        }
+                button{
+                    border:100px navajowhite;
+                    width:200px;
+                    height:50px;
+                    color: : white;
+                    border-radius:10px;
+                    background: #183612;
+                }
+                label{
+                    color:white;
+                    
+                }
